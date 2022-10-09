@@ -98,5 +98,9 @@ There are multiple blocks in the ViT encoder and each block consists of three ma
 <img src='https://github.com/EssamMohamedAbo-ElMkarem/G2Net-Detecting-Gravitational-Waves/blob/main/loss curve.png' width=600/>
 
 
+## Notes
 
+* The available dataset size isn't the ideal for such architecture(we's talking about 600 instances here) which is based on vision transformers which in turn needs more data than CNN to work properly but from my point of view they are more suitable for the problem here as we have the SFT of a signal and we need to calculate the contribution of patches(SFT parts) to the final class.
+* The model loss curve is descending but it doesn't mean that the model is learning well That's why further INVESTIGATION and IMPROVEMENTS shall be done on this work to find out if the imbalanced classes is the main issue here or if we need to try feature extraction techniques(noise cancelation filters, etc.) other than using the SFT's available.
+* One of the possible improvements here is to use a pre-trained ViT architecture and only fine tune it, this shall overcome data limitation and other issues.
 
