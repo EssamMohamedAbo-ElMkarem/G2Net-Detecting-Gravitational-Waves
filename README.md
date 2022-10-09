@@ -73,9 +73,22 @@ A spectrogram is usually depicted as a heat map, i.e., as an image with the inte
 
 <img src='https://github.com/EssamMohamedAbo-ElMkarem/G2Net-Detecting-Gravitational-Waves/blob/main/simulated%20gw.png' width=600/>
 
+## Modeling with Vision Transformers(ViT)
+
+The concept of Vision Transformer (ViT) is an extension of the original concept of Transformer. It is only the application of Transformer in the image domain with slight modification in the implementation in order to handle the different data modality. More specifically, a ViT uses different methods for tokenization and embedding. However, the generic architecture remains the same. An input image is split into a set of image patches, called visual tokens. The visual tokens are embedded into a set of encoded vectors of fixed dimension. The position of a patch in the image is embedded along with the encoded vector and fed into the transformer encoder network which is essentially the same as the one responsible for processing the text input. 
+
+<img src=https://miro.medium.com/max/1400/1*l37va2Mu8Snx6LLb13430A.png width=700/>
+
+There are multiple blocks in the ViT encoder and each block consists of three major processing elements: Layer Norm, Multi-head Attention Network (MSP) and Multi-Layer Perceptrons (MLP). Layer Norm keeps the training process on track and let model adapt to the variations among the training images. MSP is a network responsible for generation of attention maps from the given embedded visual tokens. These attention maps help network focus on most important regions in the image such as object(s). 
+
+
 ## Vision Transformer Patches Visualization
 
 <img src=https://github.com/EssamMohamedAbo-ElMkarem/G2Net-Detecting-Gravitational-Waves/blob/main/patches.png width=400/>
+
+## Vision Transformer Architecture
+
+<img src=https://github.com/EssamMohamedAbo-ElMkarem/G2Net-Detecting-Gravitational-Waves/blob/main/arch.png width=1000/>
 
 ## Binary Cross Entropy Loss Curve
 
