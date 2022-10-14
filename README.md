@@ -1,4 +1,4 @@
-# G2Net Detecting Gravitational Waves ViT Based Modeling
+# G2Net Detecting Gravitational Waves in Time and Frequency Domains with(LSTM, ViT and CNN)
 
 
 ## Gravitational Waves
