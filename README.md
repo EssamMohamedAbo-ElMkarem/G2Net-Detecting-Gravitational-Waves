@@ -146,7 +146,7 @@ However, choosing one architecture over another is not always the wisest choice,
 
 ## Vision Transformer Architecture
 
-<img src=https://github.com/EssamMohamedAbo-ElMkarem/G2Net-Detecting-Gravitational-Waves/blob/main/docs/model.png width=1000/>
+<img src=https://github.com/EssamMohamedAbo-ElMkarem/G2Net-Detecting-Gravitational-Waves/blob/main/docs/vitmodel.png width=1000/>
 
 ## CNN Architecture
 
